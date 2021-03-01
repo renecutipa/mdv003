@@ -28,6 +28,13 @@
   <link rel="stylesheet" href="{{ asset('plugins/summernote/summernote-bs4.min.css') }}">
   <!-- BS Stepper -->
   <link rel="stylesheet" href="{{ asset('plugins/bs-stepper/css/bs-stepper.min.css') }}">
+
+  <style>
+    .rojo{
+      color: red;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -195,12 +202,13 @@
 <!-- AdminLTE for demo purposes -->
 <script src="{{ asset('dist/js/demo.js')}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{ asset('dist/js/pages/dashboard.js')}}"></script>
+<!--script src="{{ asset('dist/js/pages/dashboard.js')}}"></script-->
 <script src="{{ asset('plugins/bs-stepper/js/bs-stepper.min.js')}}"></script>
 <script>
     // BS-Stepper Init
   document.addEventListener('DOMContentLoaded', function () {
     window.stepper = new Stepper(document.querySelector('.bs-stepper'))
+    
   });
 </script>
 </body>
