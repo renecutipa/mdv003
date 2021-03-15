@@ -35,6 +35,7 @@ class DocumentoController extends Controller
     public function store(Request $request)
     {
         //
+        return "HOLA";
     }
 
     /**

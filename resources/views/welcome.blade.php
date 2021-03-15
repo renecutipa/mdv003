@@ -1,7 +1,7 @@
 @extends('layouts.start')
 
 @section('content')
-<form method="POST" action="#" id="documentForm">
+<form method="POST" action="{{ route('documentos.store') }}" id="documentForm" enctype="multipart/form-data">
 @csrf
 <div class="row">
     <div class="col-md-12">
